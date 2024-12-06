@@ -1,0 +1,9 @@
+The following CSS code snippet attempts to style an element with a background image, but it fails to apply correctly due to a typographical error in the `url()` function.  The correct syntax requires double quotes around the URL path.
+
+```css
+.my-element {
+  background-image: url(my-image.jpg);
+}
+```
+
+The error manifests as the background image not appearing as expected.
