@@ -1,0 +1,8 @@
+The corrected CSS code uses double quotes around the URL path within the `url()` function:
+
+```css
+.my-element {
+  background-image: url("my-image.jpg");
+}
+```
+This ensures that the browser correctly interprets the path to the image, resolving the loading issue.
